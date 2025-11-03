@@ -236,7 +236,7 @@ nav {
 
 /* Footer */
 footer {
-    background-color: #1A1A1A;
+    background-color: #601010; /* Changed from #1A1A1A to Deep Wine */
     color: #F9F5F3;
     text-align: center;
     padding: 2rem;
@@ -334,11 +334,11 @@ footer p {
     }
 }
 
-/* Social Links - Authentic Colors */
+/* Social Links - Clean Original Colors Only */
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 2rem;
     margin-top: 2rem;
     flex-wrap: wrap;
 }
@@ -348,56 +348,68 @@ footer p {
     align-items: center;
     gap: 0.7rem;
     text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 6px;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
     transition: all 0.3s ease;
-    border: 1px solid;
+    border: 2px solid transparent;
+    background: transparent !important;
 }
 
 .social-link.whatsapp {
     color: #25D366;
     border-color: #25D366;
-    background-color: rgba(37, 211, 102, 0.1);
 }
 
 .social-link.instagram {
     color: #E4405F;
     border-color: #E4405F;
-    background-color: rgba(228, 64, 95, 0.1);
 }
 
 .social-link.tiktok {
     color: #000000;
     border-color: #000000;
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .social-link:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background: transparent !important;
 }
 
 .social-link.whatsapp:hover {
-    background-color: #25D366;
-    color: white;
+    background-color: transparent !important;
+    color: #25D366;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
 }
 
 .social-link.instagram:hover {
-    background-color: #E4405F;
-    color: white;
+    background-color: transparent !important;
+    color: #E4405F;
+    box-shadow: 0 4px 12px rgba(228, 64, 95, 0.3);
 }
 
 .social-link.tiktok:hover {
-    background-color: #000000;
-    color: white;
+    background-color: transparent !important;
+    color: #000000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .social-link i {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .social-link span {
     font-size: 1rem;
+    font-weight: 600;
+}
+
+/* No Spam Text */
+.no-spam {
+    font-size: 0.9rem;
+    color: rgba(249, 245, 243, 0.7);
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    margin-top: -0.5rem;
 }
