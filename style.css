@@ -334,7 +334,7 @@ footer p {
     }
 }
 
-/* Social Links - Clean Original Colors Only */
+/* Social Links - Clean Icons Only (No Borders) */
 .social-links {
     display: flex;
     justify-content: center;
@@ -353,51 +353,45 @@ footer p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
     transition: all 0.3s ease;
-    border: 2px solid transparent;
     background: transparent !important;
+    border: none !important;
 }
 
 .social-link.whatsapp {
     color: #25D366;
-    border-color: #25D366;
 }
 
 .social-link.instagram {
     color: #E4405F;
-    border-color: #E4405F;
 }
 
 .social-link.tiktok {
     color: #000000;
-    border-color: #000000;
 }
 
 .social-link:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     background: transparent !important;
+    border: none !important;
 }
 
 .social-link.whatsapp:hover {
-    background-color: transparent !important;
     color: #25D366;
-    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    text-shadow: 0 2px 8px rgba(37, 211, 102, 0.4);
 }
 
 .social-link.instagram:hover {
-    background-color: transparent !important;
     color: #E4405F;
-    box-shadow: 0 4px 12px rgba(228, 64, 95, 0.3);
+    text-shadow: 0 2px 8px rgba(228, 64, 95, 0.4);
 }
 
 .social-link.tiktok:hover {
-    background-color: transparent !important;
     color: #000000;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .social-link i {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .social-link span {
